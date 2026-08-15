@@ -30,6 +30,7 @@ int main()
 
     int found = 0;
     int FoundAtIdx;
+    
     for (int i = 0; i < sizeof(users) / sizeof(users[0]); i++)
     {
         if (InputAccNumber == users[i].accountNumber)
